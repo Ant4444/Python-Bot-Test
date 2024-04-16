@@ -69,3 +69,5 @@ def get_text_messages(message):
         bot.send_message(message.chat.id, text="Вы вернулись в главное меню", reply_markup=markup)
 
 bot.polling(none_stop=True, interval=0)
+
+"""новая ветка разработки"""
